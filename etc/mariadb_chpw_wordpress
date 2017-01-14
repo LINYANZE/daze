@@ -1,0 +1,22 @@
+#!/bin/bash
+# Copyright (c) 2000-2016 Synology Inc. All rights reserved.
+
+. "/var/packages/WordPress/scripts/common"
+. "/var/packages/MariaDB/scripts/hooks/common"
+
+CONF="$WEBSITE_ROOT/$CONF_FILE"
+
+if [ ! -e "$2" ]; then
+	logger -p 0 "$0: $2 not exist!"
+	exit 1
+fi
+
+[ ! -f "$CONF" ] && exit 0
+
+user="$1"
+dbuser="$(sed -n "s|^\\s*'username'\\s=>\\s'\\(.*\\)',$|\\1|p" < "$CONF" | UnquotePHP)"
+
+[ "$user" != "$dbuser" ] && exit 0
+
+pw="$(cat "$2" | QuotePHP | QuoteSed)"
+sed -i "s|^\\(\\s*'password'\\s*=>\\s*\\).*$|\\1'$pw',|" "$CONF"

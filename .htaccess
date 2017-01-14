@@ -1,0 +1,18 @@
+# Synology PHP
+AddHandler default-handler .htm .html .shtml
+AddHandler php-fastcgi .php
+AddType text/html .php
+Action php-fastcgi /php56-fpm-handler.fcgi
+# Synology PHP
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /wordpress/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /wordpress/index.php [L]
+</IfModule>
+
+# END WordPress

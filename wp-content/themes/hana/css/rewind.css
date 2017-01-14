@@ -1,0 +1,499 @@
+/**
+ * Green Color Scheme for Hana Theme
+ *
+ * This is an example to help you customize the color of your site
+ * 
+ * @package	hana
+ * @since   1.0
+ * @author  RewindCreation
+ * @license GPL v3 or later
+ * @link    http://rewindcreation.com/
+********************************************/
+/********************************************
+ * Site
+ ********************************************/
+body {
+  background: #FFFFFF;
+  color: #2a2a2a;
+}
+
+a {
+  color: #2BAF85;
+}
+a:hover, a:focus {
+  color: #F38630;
+}
+
+table thead,
+table tbody,
+table tfoot {
+  color: #2a2a2a;
+  border: 1px solid #f2f2f2;
+  background: none;
+}
+table thead, table tfoot {
+  background-color: #f7f7f7;
+}
+table tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+blockquote {
+  border-left: 5px solid #5d5d5d;
+}
+
+blockquote p {
+  color: #444444;
+}
+
+.button {
+  background: #2BAF85;
+}
+
+.button:hover, .button:focus {
+  background-color: #218666;
+}
+
+.site-main {
+  background: #FFFFFF;
+}
+
+.page-header {
+  background: #f5faf6;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.page-link {
+  border-top: 1px solid #f2f2f2;
+}
+.page-link .page-link-number {
+  border: 1px solid #f2f2f2;
+}
+.page-link > .page-link-number {
+  background: #f2f2f2;
+}
+.page-link a:hover {
+  color: #F38630;
+}
+.page-link a:hover .page-link-number {
+  background: #f2f2f2;
+}
+
+.pagination .current {
+  background: #f2f2f2;
+  color: #2a2a2a;
+}
+
+/********************************************
+ * Top Bar
+ ********************************************/
+.top-bar {
+  background: #006341;
+}
+.top-bar .menu {
+  margin-top: 0.25rem;
+}
+.top-bar .menu a {
+  color: #FFFAFA;
+}
+.top-bar .menu a:hover {
+  color: #F38630;
+}
+.top-bar .submenu {
+  background: #f5faf6;
+  border-color: #dedede;
+}
+.top-bar .submenu a {
+  color: #2a2a2a;
+}
+.top-bar .submenu a:hover {
+  color: #F38630;
+}
+
+@media screen and (min-width: 64em) {
+  .fullwidth-slider .is-anchored .top-bar {
+    background: rgba(0, 99, 65, 0.2);
+  }
+}
+.title-bar {
+  background: #006341;
+}
+
+.title-bar-icon {
+  color: #FFFAFA;
+}
+
+.site-title a {
+  color: #FBB700;
+  text-shadow: 2px 2px 4px #4a4a4a;
+}
+
+.site-description {
+  color: #cacaca;
+}
+
+/********************************************
+ * Footer
+ ********************************************/
+.custom-background #footer-widgets,
+.custom-background #footer {
+  background: rgba(241, 241, 241, 0.8);
+}
+
+#footer {
+  background: #F1F1F1;
+  color: #303030;
+}
+
+.copyright a {
+  color: #00281a;
+}
+
+.design-credit a {
+  color: #303030;
+}
+
+.back-to-top a {
+  color: #303030;
+  background: white;
+  border: 2px solid #4a4a4a;
+}
+.back-to-top a :hover {
+  color: #F38630;
+}
+
+/********************************************
+ * Menu
+ ********************************************/
+.sectionmenu {
+  border-top: 1px solid rgba(227, 227, 227, 0.5);
+  border-bottom: 1px solid rgba(227, 227, 227, 0.5);
+  box-shadow: 0 4px 2px -2px #e3e3e3;
+  background: #FFFAFA;
+}
+
+.section-menu ul li:hover {
+  background: #f5faf6;
+}
+.section-menu ul li a {
+  color: #2a2a2a;
+}
+.section-menu ul li a:hover {
+  color: #F38630;
+}
+.section-menu ul ul {
+  background: #f5faf6;
+  border: 1px solid rgba(222, 222, 222, 0.5);
+}
+.section-menu ul ul li {
+  border-top: 1px solid rgba(222, 222, 222, 0.5);
+}
+.section-menu ul ul li a:hover {
+  background: white;
+}
+
+.section-menu > ul > li > a {
+  border-right: 1px solid rgba(235, 235, 235, 0.5);
+}
+.section-menu > ul > li:first-child {
+  border-left: 1px solid rgba(235, 235, 235, 0.5);
+}
+
+/* Left Menu */
+#offCanvasLeft {
+  background: #0a0a0a;
+}
+
+.leftmenu > ul > li > a {
+  background: #242424;
+}
+.leftmenu li a {
+  color: #FFFAFA;
+  border-bottom: 1px solid #242424;
+}
+.leftmenu li a:hover {
+  background: #171717;
+}
+
+.footer-menu ul li {
+  border-right: 1px solid #e4e4e4;
+}
+.footer-menu ul li ul li:first-child {
+  border-left: 1px solid #e4e4e4;
+}
+.footer-menu ul li a {
+  color: #00281a;
+}
+.footer-menu ul li a:hover {
+  text-decoration: underline;
+}
+
+/********************************************
+ * Featured Content
+ ********************************************/
+.featured-content {
+  background: #f2f2f2;
+}
+
+.featured-caption {
+  background: rgba(0, 0, 0, 0.3);
+  color: #FFFAFA;
+}
+
+.featured-title a {
+  color: #F38630;
+}
+.featured-title a:hover {
+  color: #F38630;
+}
+
+.ticker-img {
+  background-color: #FFFAFA;
+  border: 1px solid rgba(10, 10, 10, 0.2);
+  box-shadow: 0 1px 3px rgba(10, 10, 10, 0.1);
+}
+
+.btn-featured {
+  background-color: #2BAF85;
+  color: #FFFAFA;
+}
+.btn-featured:hover, .btn-featured:focus {
+  background-color: #218666;
+  color: #FFFAFA;
+}
+
+/********************************************
+ * Post
+ ********************************************/
+.hentry {
+  background: #FFFFFF;
+}
+
+.entry-title a {
+  color: #006341;
+}
+.entry-title a:hover {
+  color: #F38630;
+}
+
+.entry-excerpt {
+  color: #444444;
+}
+
+.post-divider, .widget-divider, .section-divider {
+  background-image: -webkit-linear-gradient(left, #FFFFFF, #e6e6e6, #FFFFFF);
+  background-image: -moz-linear-gradient(left, #FFFFFF, #e6e6e6, #FFFFFF);
+  background-image: -ms-linear-gradient(left, #FFFFFF, #e6e6e6, #FFFFFF);
+  background-image: -o-linear-gradient(left, #FFFFFF, #e6e6e6, #FFFFFF);
+}
+
+/********************************************
+ * Post Formats
+ ********************************************/
+.format-aside .entry-content,
+.format-aside .entry-summary,
+.format-quote .entry-content,
+.format-quote .entry-summary {
+  background: #f2f2f2;
+  border-left: 1.25rem solid #e6e6e6;
+}
+
+.format-quote .entry-content::after,
+.format-quote .entry-summary::after {
+  color: #808080;
+}
+
+/********************************************
+ * Post Meta
+ ********************************************/
+.entry-meta {
+  color: #808080;
+}
+.entry-meta a {
+  color: #808080;
+}
+.entry-meta a:hover {
+  color: #F38630;
+}
+
+.entry-featured {
+  color: #ff5e5e;
+}
+
+/*****************************************
+ * Post Comments
+ ********************************************/
+.even > .comment-body {
+  background: #f7f7f7;
+}
+
+.comment-meta .avatar {
+  border: 1px solid #e1e1e1;
+}
+.comment-meta a {
+  color: #808080;
+}
+
+.comment-metadata > a {
+  color: #808080;
+}
+
+.comment-reply-link {
+  color: #808080;
+}
+
+/********************************************
+ * Widgets
+ ********************************************/
+.widget-title {
+  font-size: 1.2rem;
+  color: #2a2a2a;
+  line-height: 1;
+}
+
+.sidebar {
+  color: #444444;
+}
+.sidebar .widget {
+  background: #FFFFFF;
+  border: 1px solid #e6e6e6;
+  border-radius: 0.5rem;
+}
+.sidebar .widget-title {
+  color: #808080;
+  background: #f5f6fa;
+  border: 1px solid #e6e6e6;
+  border-radius: 1rem;
+}
+
+.widget_categories ul li a, .widget_archive ul li a, .widget_pages ul li a, .widget_recent_entries ul li a, .widget_meta ul li a, .widget_nav_menu ul li a, .widget_rss ul li a {
+  border-bottom: 1px solid #f2f2f2;
+  color: #00281a;
+}
+.widget_categories ul li a:hover, .widget_archive ul li a:hover, .widget_pages ul li a:hover, .widget_recent_entries ul li a:hover, .widget_meta ul li a:hover, .widget_nav_menu ul li a:hover, .widget_rss ul li a:hover {
+  color: #F38630;
+}
+.widget_categories ul li span, .widget_archive ul li span, .widget_pages ul li span, .widget_recent_entries ul li span, .widget_meta ul li span, .widget_nav_menu ul li span, .widget_rss ul li span {
+  color: #808080;
+}
+
+.widget_recent_comments ul li {
+  border-bottom: 1px 1px solid #f2f2f2;
+}
+
+#footer-widgets {
+  background: #F1F1F1;
+  border-top: 1px solid #e4e4e4;
+  color: #303030;
+}
+
+.footer-widget .widget ul li a {
+  color: #00281a;
+}
+.footer-widget .widget-title-container {
+  border-bottom: 1px solid #dddddd;
+}
+.footer-widget .widget-title {
+  color: #4a4a4a;
+}
+
+/********************************************
+ * Hana Navigation Widget
+ ********************************************/
+.hana_nav .tabs {
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+.hana_nav .tabs > li > a {
+  border-right: 1px solid #e6e6e6;
+  color: #00281a;
+}
+.hana_nav .tabs > li > a:hover {
+  text-decoration: underline;
+  background: #f5f6fa;
+}
+.hana_nav .tabs > li.is-active > a {
+  background: #f5f6fa;
+}
+
+/********************************************
+ * Hana Marking
+ ********************************************/
+.marketing-icon {
+  color: #808080;
+}
+
+a > .marketing-icon:hover {
+  color: #F38630;
+}
+
+/********************************************
+ * Portfolio
+ ********************************************/
+.pfitem .hentry {
+  background: #f2f2f2;
+}
+.pfitem .hentry:hover {
+  box-shadow: 2px 2px 2px 0px rgba(50, 50, 50, 0.5);
+}
+
+/********************************************
+ * Home Page
+ ********************************************/
+.section-divider {
+  margin: 0 auto;
+}
+
+.home-section.page-content {
+  background: #f5faf6;
+}
+.home-section .widget-title-container .widget-title a {
+  color: #808080;
+}
+.home-section .widget-title-container .widget-title a:hover {
+  color: #F38630;
+}
+
+/********************************************
+ * Pricing Table
+ ********************************************/
+.pricing-table {
+  border: solid 1px #e6e6e6;
+}
+.pricing-table li {
+  border-bottom: dotted 1px #e6e6e6;
+}
+.pricing-table .title {
+  background-color: #666666;
+  color: #EEEEEE;
+}
+.pricing-table .price {
+  background-color: #f2f2f2;
+  color: #2a2a2a;
+}
+.pricing-table .description {
+  color: #2a2a2a;
+}
+
+/********************************************
+ * Social
+ ********************************************/
+.social li a[href*="facebook.com"]::before {
+  content: '\f09a';
+  color: #3D5A99;
+}
+.social li a:hover::before {
+  color: #F38630 !important;
+}
+
+.social-topbar li a::before {
+  color: #ddd !important;
+}
+
+.social-footer li a::before {
+  color: #2a2a2a !important;
+}
+
+#home-section-2 {
+  background: #e0f8fe;
+}
